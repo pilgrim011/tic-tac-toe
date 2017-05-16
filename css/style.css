@@ -1,0 +1,43 @@
+
+#playground{
+ width:450px;
+  height:450px;
+  background-color: #1B3020;
+  display: block;
+}
+#play{
+  display: none;
+}
+#xoro{
+  color:white;
+}
+#X,#O{
+  margin: 80px 0px 0px 0px;
+  padding:50px;
+  font-size:30px;
+}
+table#tabla td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font: bold 36px sans-serif;
+}
+
+td#first, td#second, td#third, td#fourth, td#fifth, td#sixth {
+    border-bottom: 3px solid #930;
+}
+
+td#first, td#second, td#fourth, td#fifth, td#seventh, td#eighth {
+    border-right: 3px solid #930;
+}
+h3{
+  font-size:60px;
+}
+#restart{
+ 
+  border: 3px double #FC6;
+  border-top-color: #FC9;
+  border-left-color: #FC9;
+
+}
